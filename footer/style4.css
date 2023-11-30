@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+h1{
+    font-size: 70px;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    margin-top: -15px;
+    font-size: 25px;
+}
+#map {
+    margin-top: 550px;
+    width: 900px;
+    height: 350px;
+    margin-left: -550px;
+    margin-bottom: 100px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+        
+}
+
+.email {
+    margin-left: 100px; 
+}
+
+.telefone{
+    margin-left: 50px;
+}
+
+.localizacao{
+    margin-left: 50px;
+}
+input{
+    padding: 15px;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-left: 130px;
+    margin-top: 25px;
+    width: 45%;
+}
+.container2{
+    width: 30%;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 400px;
+    background-color: white;
+    margin-top: 290px;
+    border-radius: 20px;
+    height: 540px;
+}
+button{
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    margin-left: 210px;
+}
+
+button:hover{
+    color: grey;
+    cursor: pointer;
+}
+.nome{
+    margin-top: 20px;
+    margin-bottom: -15px;
+}

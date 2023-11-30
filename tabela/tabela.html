@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="tabela">
+        <h1>TABELA</h1>
+        <table id="minhaTabela">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Período</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Etapa 1</td>
+                    <td>Lorem ipsum dolor...</td>
+                    <td>01/01/2020 a 07/01/2020</td>
+                    <td>
+                        <button onclick="editarLinha(this)"><img src="editar.png" alt=""></button>
+                        <button onclick="removerLinha(this)"><img src="lixeira.png" alt=""></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Etapa 2</td>
+                    <td>Lorem ipsum dolor...</td>
+                    <td>01/01/2020 a 08/01/2020</td>
+                    <td>
+                        <button onclick="editarLinha(this)"><img src="editar.png" alt=""></button>
+                        <button onclick="removerLinha(this)"><img src="lixeira.png" alt=""></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="botao_linha">
+            <button onclick="adicionarLinha()">Adicionar</button>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>

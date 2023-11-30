@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rectangle-141">
+        <h1><br><br><br>Projeto trainee</h1>
+        <p class="frase-inicial"><br><br>Caso seja sua primeira vez aqui, <br> clique <span class="purple-text"><a href="#">aqui</a></span> para fazer o seu cadastro</p>
+    </div>
+    <div class="tela-login">
+        <p class="titulo-login"><br><br>Iniciar Sessão</p>
+        <br><br><br><br><br>
+        <form>
+            <input type="text" id="emailInput" placeholder="Digite seu email">
+
+            <br><br>
+            <input type="password" id="passwordInput" placeholder="Senha">
+
+            <br><br><br><br><br>
+            <button type="button" onclick="validateLoginForm()">Entrar</button>
+        </form>
+
+        <br><br>
+        <p id="error-message"></p>
+        <p class="esqueceu-senha"><a href="#">Esqueceu a senha?</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
